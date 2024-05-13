@@ -19,3 +19,5 @@ Ogni treno dovrà avere:
 *** Svolgimento ***
 - creare una migration tramite terminale con il comando *php artisan make:migration create_trains_table*
 - compilare i campi che servono nella tabella e creare un database direttamente tramite *php artisan migrate*
+- creazione di update tramite *php artisan make:migration update_trains_table --table=trains* 
+- verifica del corretto funzionamento dell'update e del rollback
