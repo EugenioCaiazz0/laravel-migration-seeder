@@ -14,12 +14,12 @@ return new class extends Migration
         Schema::create('trains', function (Blueprint $table) {
             $table->id();
             $table->string('company', 50);
-            $table->string('depart station', 100);
-            $table->string('arrival station', 100);
+            $table->string('depart_station', 100);
+            $table->string('arrival_station', 100);
             $table->time('depart_time');
             $table->time('arrival_time');
-            $table->tinyInteger('train id')->unique();
-            $table->boolean('on time');
+            $table->tinyInteger('train_id')->unique();
+            $table->boolean('on_time');
             $table->boolean('deleted');
         });
     }
