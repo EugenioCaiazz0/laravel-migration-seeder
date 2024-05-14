@@ -21,6 +21,7 @@ return new class extends Migration
             $table->tinyInteger('train_id')->unique();
             $table->boolean('on_time');
             $table->boolean('deleted');
+            $table->timestamps();
         });
     }
 

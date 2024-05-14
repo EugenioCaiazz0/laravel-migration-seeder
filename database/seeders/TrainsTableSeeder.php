@@ -22,6 +22,16 @@ class TrainsTableSeeder extends Seeder
             "train_id" => '44hh8dsg',
             "on_time" => '1',
             "deleted" => '0',
+        ],
+        [
+            "company" => 'Trenitalia',
+            "depart_station" => 'Napoli Garibalid',
+            "arrival_station" => 'Roma Termini',
+            "depart_time" => '8:00',
+            "arrival_time" => '10:40',
+            "train_id" => '0987dfsj7',
+            "on_time" => '1',
+            "deleted" => '0',
         ]
     ];
 

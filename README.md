@@ -39,3 +39,5 @@ Ogni treno dovrà avere:
 - creare un seeder con il comando *php artisan make:seeder TrainsTableSeeder*
 - creare un model di riferimento con il comando *php artisan make:model Train*
 - una volta creato l'elemento da istanziare nel seeder, popolare il db con un ciclo e inserire il comando *php artisan db:seed --class=TrainsTableSeeder*
+- creare faker con info della tabella e iterarlo x volte
+
